@@ -18,4 +18,11 @@ while True:
             break
     except ValueError:
         print("Erro! Introduza um valor válido da idade!")
+
+resposta_e = input("\nEncontra-se empregado? (s/n) \n")
+if resposta_e in ['s', 'sim']:
+    print(f"É o {nome} e está empregado.")
+elif resposta_e in ['n', 'nao', 'não']:
+    print(f"É o {nome} e está desempregado.")
+
         
