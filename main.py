@@ -24,5 +24,7 @@ if resposta_e in ['s', 'sim']:
     print(f"\nÉ o {nome} e está empregado.")
 elif resposta_e in ['n', 'nao', 'não']:
     print(f"\nÉ o {nome} e está desempregado.")
+else:
+    print("Resposta inválida. Introduza 's' para sim ou 'n' para não.")
 
         
